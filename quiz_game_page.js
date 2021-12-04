@@ -1,3 +1,8 @@
+player_1_name = localStorage.getItem("player1_name");
+player_2_name = localStorage.getItem("player2_name");
+document.getElementById("player1_name").innerHTML = player_1_name;
+document.getElementById("player2_name").innerHTML = player_2_name;
+
 function send(){
     number1 = document.getElementById("number1").value;
     number2 = document.getElementById("number2").value;
